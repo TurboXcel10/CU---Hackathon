@@ -113,6 +113,9 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
+    width: '100%',
+    maxWidth: 480,
+    alignSelf: 'center',
     paddingHorizontal: 24,
     paddingVertical: 16,
     justifyContent: 'space-between',
