@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
 
-export default function WelcomeScreen() {
+export default function AIAssistantScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome / Splash</Text>
-      <Link href="/role-selection" style={styles.link}>Go to Role Selection</Link>
+      <Text style={styles.title}>AI Assistant</Text>
+      <Link href="/" style={styles.link}>Go to Home</Link>
     </View>
   );
 }

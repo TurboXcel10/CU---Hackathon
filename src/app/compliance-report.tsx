@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
 
-export default function WelcomeScreen() {
+export default function ComplianceReportScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome / Splash</Text>
-      <Link href="/role-selection" style={styles.link}>Go to Role Selection</Link>
+      <Text style={styles.title}>Compliance Report</Text>
+      <Link href="/certification-journey" style={styles.link}>Go to Certification Journey</Link>
     </View>
   );
 }
