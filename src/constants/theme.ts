@@ -7,6 +7,26 @@ import '@/global.css';
 
 import { Platform } from 'react-native';
 
+export const GlobalColors = {
+  primary: '#0B6B5C',
+  dark: '#10231F',
+  background: '#F6F8F7',
+  card: '#FFFFFF',
+  text: '#14201D',
+  secondary: '#66736F',
+  success: '#16805B',
+  warning: '#C98719',
+  danger: '#C74646',
+  border: '#E1E7E4',
+};
+
+export const Typography = {
+  heading: { fontSize: 30, fontWeight: 'bold' as const },
+  section: { fontSize: 20, fontWeight: '600' as const },
+  body: { fontSize: 16, fontWeight: 'normal' as const },
+  caption: { fontSize: 13, fontWeight: 'normal' as const },
+};
+
 export const Colors = {
   light: {
     text: '#000000',
